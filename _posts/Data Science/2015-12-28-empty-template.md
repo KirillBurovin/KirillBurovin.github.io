@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-categories: Data Science
+categories: DataScience
 ---
 
 ## Empty diary template
