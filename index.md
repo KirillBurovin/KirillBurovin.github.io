@@ -1,5 +1,5 @@
 ---
-layout: frontpage
+layout: home
 ---
 
 ## Добро пожаловать
