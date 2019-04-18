@@ -1,5 +1,5 @@
 # Site settings
-title: Kirill Burovin`s blog
+name: Kirill Burovin`s site
 email: kup9nps@gmail.com
 description: KirillBurovin's Blogs
 # > # this means to ignore newlines until "baseurl:"
@@ -7,10 +7,14 @@ description: KirillBurovin's Blogs
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 
+author: Kirill Burovin
+copyright: 2019
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username: KirillBurovin
+Social:
+  github: KirillBurovin
+  
 permalink: /:year/:month/:day/:title/
 # this is the url root of the view source link on the footer page.
 viewsourceroot: https://github.com/KirillBurovin/KirillBurovin.github.io/blob/master/
@@ -21,7 +25,7 @@ newsourceroot: https://github.com/KirillBurovin/KirillBurovin.github.io/new/mast
 #duoshuo_shortname: lixizhi
 #duoshuo_url: "http://lixizhi.github.io"
 # disqus.com commenting system. please note that it is exclusive with duoshuo.com
-disqus_shortname: KirillBurovin
+disqus: KirillBurovin
 disqus_url: "KirillBurovin.github.io"
 #########################################
 
