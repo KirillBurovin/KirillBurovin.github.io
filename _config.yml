@@ -22,7 +22,7 @@ newsourceroot: https://github.com/KirillBurovin/KirillBurovin.github.io/new/mast
 #duoshuo_url: "http://lixizhi.github.io"
 # disqus.com commenting system. please note that it is exclusive with duoshuo.com
 disqus_shortname: KirillBurovin
-disqus_url: "http://KirillBurovin.github.io"
+disqus_url: "KirillBurovin.github.io"
 #########################################
 
 # Build settings
