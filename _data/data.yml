@@ -7,41 +7,36 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Kirill Burovin
+    tagline: Data Scientist
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: Kirich_s4@mail.ru
+    website: kirillburovin.github.io #do not add http://
+    github: KirillBurovin
+    vk: https://vk.com/kirich321
+    kaggle: https://www.kaggle.com/kupchanski 
+
 
     languages:
-      - idiom: English
+      - idiom: Russian
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: English
+        level: Upper-intermediate
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Japanese
+        level: Begginer
 
     interests:
-      - item: Climbing
+      - item: Skiing
         link:
 
-      - item: Snowboarding
+      - item: Gaming
         link:
 
-      - item: Cooking
+      - item: Volleyball
         link:
 
 career-profile:
@@ -69,18 +64,6 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 experiences:
     - role: Lead Developer
