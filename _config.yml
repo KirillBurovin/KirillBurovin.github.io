@@ -18,7 +18,7 @@ analytics: UA-83979019-1
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  
 # Build settings
 compress-site: yes
 
