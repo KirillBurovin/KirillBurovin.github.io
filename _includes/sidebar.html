@@ -1,20 +1,33 @@
-<div class="sidebar ">
-  <h2>Recent Posts</h2>
-  <ul>
-    {% for post in site.posts limit:5 %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+{% assign sidebar = site.data.data.sidebar %}
+<div class="sidebar-wrapper">
 
-<div class="sidebar">
-  <h2>Tags</h2>
-  <ul class="sideBarTags">
-    {% assign tags = (site.tags | sort:0) %}
-    {% for tag in tags %}
-    <li>
-      <a href="{{ '/tag/' | append: tag[0] | relative_url }}" data-toggle="tooltip" data-placement="right" title="{{ tag[1].size }}">
-        <span>{{tag[0] }}</span></a></li>
-    {% endfor %}
-  </ul>
-</div>
+  <div class="profile-container">
+
+    {% if sidebar.name %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    {% endif %}
+
+    {% if sidebar.name %}
+    <h1 class="name">{{ sidebar.name }}</h1>
+    {% endif %}
+
+    {% if sidebar.tagline %}
+    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% endif %}
+
+  </div><!--//profile-container-->
+
+  {% include contact.html %}
+
+  {% if sidebar.education %}
+    {% include education.html %}
+  {% endif %}
+
+  {% include language.html %}
+  {% include interests.html %}
+
+  {% if sidebar.about %}
+    {% include about.html %}
+  {% endif %}
+
+</div><!--//sidebar-wrapper-->

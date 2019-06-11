@@ -1,39 +1,34 @@
-# Site settings
-name: Kirill Burovin`s site
-email: kup9nps@gmail.com
-description: KirillBurovin's Blogs
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
+#Update all the sections by editing the data.yml file inside _data folder.
 
-author: Kirill Burovin
-copyright: 2019
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-social:
-  github: KirillBurovin
-  instagram: Kup9_NpS
-  
-permalink: /:year/:month/:day/:title/
-# this is the url root of the view source link on the footer page.
-viewsourceroot: https://github.com/KirillBurovin/KirillBurovin.github.io/blob/master/
-# this is the url root of the create page link on the footer page.
-newsourceroot: https://github.com/KirillBurovin/KirillBurovin.github.io/new/master
-#########################################
-# for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
-#duoshuo_shortname: lixizhi
-#duoshuo_url: "http://lixizhi.github.io"
-# disqus.com commenting system. please note that it is exclusive with duoshuo.com
-disqus: KirillBurovin
-disqus_url: "KirillBurovin.github.io"
-#########################################
+# Site Settings
+title: My Resume
+url: 'https://kirillburovin.github.io/'
+baseurl: '/online-cv' #change it according to your repository name
+description: A beautiful Jekyll theme for creating resume
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: ceramic # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+
+# Tracker
+analytics: UA-83979019-1
+
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
-markdown: kramdown
+compress-site: yes
 
-# highlight
-# highlighter: pygments
-# highlighter: rouge
-# highlighter: false
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false
