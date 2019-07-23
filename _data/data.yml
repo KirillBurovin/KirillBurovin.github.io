@@ -116,16 +116,16 @@ skills:
 
     toolset:
       - name: Python 
-        level: 98%
+        level: 60%
 
       - name: ML
-        level: 98%
+        level: 50%
 
       - name: DL
-        level: 98%
+        level: 10%
 
       - name: SQL and NoSQL
-        level: 95%
+        level: 20%
 
 
 
